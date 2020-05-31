@@ -5,10 +5,10 @@ class Model{
     public $conn;
 
     public function makeConnect(){
-        $servername = "mysql.zzz.com.ua";
-        $username = "testuser";
-        $password = "4023Kerri";
-        $db = "kerri";
+        $servername = "************";
+        $username = "***********";
+        $password = "**********";
+        $db = "**********";
         try {
             $connect = new PDO("mysql:host=$servername;dbname=$db", $username, $password);
             $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
